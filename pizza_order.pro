@@ -27,12 +27,18 @@ SOURCES += \
         main.cpp \
         orderwindow.cpp \
     kitchen.cpp \
-    ordertable.cpp
+    ordertable.cpp \
+    order.cpp \
+    orderbuilder.cpp \
+    pizza.cpp
 
 HEADERS += \
         orderwindow.h \
     kitchen.h \
-    ordertable.h
+    ordertable.h \
+    order.h \
+    orderbuilder.h \
+    pizza.h
 
 FORMS += \
         orderwindow.ui \

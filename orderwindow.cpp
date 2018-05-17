@@ -25,3 +25,8 @@ OrderWindow::~OrderWindow() {
 void OrderWindow::addItem(QString name) {
     ui->order_table->addItem(name);
 }
+
+//----------------------------------------------------------------------------
+void OrderWindow::on_pizza_remove_clicked() {
+    ui->order_table->removeRow(ui->order_table->currentRow());
+}

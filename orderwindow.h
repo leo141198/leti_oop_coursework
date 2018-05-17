@@ -18,6 +18,8 @@ public:
 private slots:
     void addItem(QString name);
 
+    void on_pizza_remove_clicked();
+
 private:
     Ui::OrderWindow* ui;
 };
